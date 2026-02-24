@@ -1,0 +1,6 @@
+- name: Engineering Department
+  description: All members of the engineering department
+  label_membership_type: host_vitals
+  criteria:
+    vital: end_user_idp_department
+    value: Engineering

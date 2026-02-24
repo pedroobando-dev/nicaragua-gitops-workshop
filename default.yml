@@ -4,6 +4,8 @@ policies:
 queries:
 agent_options:
 controls:
+labels: 
+  - path: /Users/pedro.obando/Documents/GitHub/nicaragua-gitops-workshop/lib/all/labels/global-label.yml
 org_settings:
   server_settings:
     server_url: $FLEET_URL
