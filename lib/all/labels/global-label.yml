@@ -4,3 +4,7 @@
   criteria:
     vital: end_user_idp_department
     value: Engineering
+- name: Uptime > 30 days
+  description: Hots with uptime greater than 30 days
+  query: "SELECT 1 FROM uptime WHERE days > 30"
+  label_membership_type: dynamic
